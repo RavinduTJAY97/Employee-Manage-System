@@ -35,6 +35,10 @@ This project was developed using Laravel for the backend, Vue.js for interactive
 10 .Open your browser and visit `http://localhost:8000` to see the application running.
 
 
+Application Previews
+![screencapture-127-0-0-1-8000-add-member-2024-06-15-23_38_44](https://github.com/RavinduTJAY97/Employee-Manage-System/assets/48641073/0fe1f4c2-4147-4c67-957d-1e92fe5e6549)
+
+![screencapture-127-0-0-1-8000-2024-06-15-23_40_58](https://github.com/RavinduTJAY97/Employee-Manage-System/assets/48641073/9a62b52c-2a24-49d7-8d79-55dcb58f9f59)
 
 
 
