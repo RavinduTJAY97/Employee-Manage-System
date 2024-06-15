@@ -1,64 +1,44 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
+# Employee-Manage-System
 
-<p align="center">
-<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+This project was developed using Laravel for the backend, Vue.js for interactive frontend components, and Bootstrap for responsive styling. It includes functionalities such as adding new members with basic details, editing and deleting existing records, and searching by last name. Data validation is implemented both on the client and server sides. The application follows Object-Oriented Programming (OOP) standards and integrates AJAX for seamless data handling. The project directory structure is organized under the developer's name, adhering to best practices for PHP development.
 
-## About Laravel
+## Features
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+- **Add New Members**: Allows users to add new members with basic details, including selecting a DS Division.
+- **List Members**: Displays a list of inserted members with their details, including edit and delete functionalities.
+- **Search**: Provides a search facility by last name to quickly find members.
+- **Validation**: Implements client-side and server-side validation for form fields according to best practices.
+- **Integration**: Uses AJAX for seamless data handling between frontend and backend.
+- **Responsive Design**: Utilizes Bootstrap to ensure the application is responsive across various devices.
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+## Installation
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+1. Clone the repository:
 
-## Learning Laravel
+2. Navigate into the project directory:
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+3. Install dependencies using Composer:
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 1500 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+4. Install npm dependencies:
 
-## Laravel Sponsors
+5. Set up your environment variables:
+- Rename `.env.example` to `.env` and configure your database credentials.
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
+6. Generate application key:
 
-### Premium Partners
+7. Run migrations and seeders to set up the database:
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[OP.GG](https://op.gg)**
-- **[WebReinvent](https://webreinvent.com/?utm_source=laravel&utm_medium=github&utm_campaign=patreon-sponsors)**
-- **[Lendio](https://lendio.com)**
+8. Compile assets for production:
 
-## Contributing
+9. Serve the application:
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+10 .Open your browser and visit `http://localhost:8000` to see the application running.
 
-## Code of Conduct
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+Application Previews
+![screencapture-127-0-0-1-8000-add-member-2024-06-15-23_38_44](https://github.com/RavinduTJAY97/Employee-Manage-System/assets/48641073/0fe1f4c2-4147-4c67-957d-1e92fe5e6549)
 
-## Security Vulnerabilities
+![screencapture-127-0-0-1-8000-2024-06-15-23_40_58](https://github.com/RavinduTJAY97/Employee-Manage-System/assets/48641073/9a62b52c-2a24-49d7-8d79-55dcb58f9f59)
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
 
-## License
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
