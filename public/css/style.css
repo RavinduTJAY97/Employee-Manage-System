@@ -1,0 +1,193 @@
+body {
+    font-family: "Rubik", sans-serif;
+    background-color: #f8f8f8;
+}
+.page-wrap {
+    padding: 50px 0;
+}
+.box-card {
+    background-color: #fff;
+    border-radius: 12px;
+    border: 1px solid #f0f0f0;
+    padding: 40px;
+    box-shadow: 0 0 16px 4px rgba(0,0,0,.1);
+}
+.page-input {
+    outline: 0;
+    border: none;
+    border-bottom: 1px solid #ccc !important;
+    background-color: transparent;
+    padding: 20px 2px 2px;
+    border-radius: 0;
+    font-size: 18px;
+    color: #000000;
+}
+.page-input:focus {
+    background-color: transparent;
+    outline: 0;
+    box-shadow: none;
+}
+.page-input::placeholder {
+    color: #747171;
+    opacity: 1;
+}
+
+.page-input::-ms-input-placeholder {
+    color: #747171;
+}
+.page-input.select {
+    padding: 2px !important;
+    margin-top: 20px;
+}
+.form-pad {
+    padding: 0 22px;
+}
+.form-mar {
+    margin: 0 -22px;
+}
+.btn-primary {
+    color: #fff;
+    background-color: #ff7425;
+    border-color: #ff7425;
+}
+.btn-primary:hover {
+    color: #fff;
+    background-color: #fe5c00;
+    border-color: #f15700;
+}
+.back-btn {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: max-content;
+    cursor: pointer;
+    margin-bottom: 25px;
+}
+.btn-primary:focus, .btn-primary.focus {
+    color: #fff;
+    background-color: #fe5c00;
+    border-color: #f15700;
+    box-shadow: none;
+}
+.btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active, .show>.btn-primary.dropdown-toggle {
+    color: #fff;
+    background-color: #f15700;
+    border-color: #e45300;
+}
+.back-btn img {
+    width: 18px;
+}
+.back-btn p {
+    font-size: 16px;
+    margin: 0;
+    padding-left: 10px;
+    color: #ff7425;
+}
+.page-btn {
+    min-width: 160px;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 8px 15px;
+    border-radius: 100px;
+}
+.btn-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-end;
+}
+.btn-wrap .btn {
+    margin: 0 0 12px 12px;
+}
+/*data table style*/
+div.dt-container select.dt-input {
+    margin-right: 8px;
+}
+div.dt-container div.dt-layout-row.dt-layout-table {
+    display: block;
+    margin: 12px 0;
+}
+div.dt-container .dt-search input {
+    outline: 0 !important;
+}
+div.dt-container .dt-paging .dt-paging-button {
+    min-width: 25px;
+    padding: 4px 2px;
+    border: none;
+    border-radius: 0;
+    line-height: normal;
+    font-size: 14px;
+}
+div.dt-container .dt-paging .dt-paging-button.current, div.dt-container .dt-paging .dt-paging-button.current:hover {
+    border: none;
+    background-color: #fe5c00 !important;
+    color: #fff !important;
+}
+div.dt-container .dt-paging .dt-paging-button:hover {
+    border: none;
+    background: #fe5c00 !important;
+    color: #fff !important;
+}
+table tbody {
+    font-size: 15px;
+}
+table.dataTable > thead > tr > th, table.dataTable > thead > tr > td {
+    padding: 10px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+    font-size: 15px;
+    font-weight: 500;
+}
+.table-btn-wrap {
+    display: flex;
+    flex-wrap: wrap;
+}
+.table-btn-wrap .btn {
+    padding: 4px 10px;
+    font-size: 13px;
+    line-height: normal;
+    margin: 2px;
+    border-radius: 0;
+}
+.add-btn{
+    display: flex;
+    justify-content: right;
+    margin-bottom: 15px;
+    margin-right:22px;
+}
+@media(max-width: 1200px) {
+    .page-wrap {
+        padding: 40px 0;
+    }
+    .box-card {
+        padding: 25px;
+    }
+    .page-input {
+        font-size: 16px;
+    }
+    .form-pad {
+        padding: 0 15px;
+    }
+    .form-mar {
+        margin: 0 -15px;
+    }
+    .back-btn {
+        margin-bottom: 20px;
+    }
+    .back-btn img {
+        width: 15px;
+    }
+    .back-btn p {
+        font-size: 15px;
+        padding-left: 8px;
+    }
+    .page-btn {
+        min-width: 100px;
+        font-size: 15px;
+    }
+    .btn-wrap {
+    }
+    .btn-wrap .btn {
+        margin: 0 0 8px 8px;
+    }
+
+}
